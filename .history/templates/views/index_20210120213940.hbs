@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: "Raleway", Arial, sans-serif
+    }
+
+    .w3-row img {
+        margin-bottom: -8px
+    }
+</style>
+
+<body>
+    {{>navbar}}
+    <center><h1 style="font-family: sans-serif;"> Hello from the Home side..! </h1></center>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width:1500px">
+
+
+        <!-- Photo Grid -->
+        <div class="w3-row">
+            <div class="w3-half">
+                <img src="https://www.w3schools.com/w3images/streetart.jpg" style="width:100%">
+                <img src="https://www.w3schools.com/w3images/streetart2.jpg" style="width:100%">
+                <img src="https://www.w3schools.com/w3images/streetart5.jpg" style="width:100%">
+            </div>
+
+            <div class="w3-half">
+                <img src="https://www.w3schools.com/w3images/streetart3.jpg" style="width:100%">
+                <img src="https://www.w3schools.com/w3images/streetart4.jpg" style="width:100%">
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+    <!-- Footer / About Section -->
+    <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+        <h2>About</h2>
+        <img src="/w3images/boy.jpg" class="w3-image w3-padding-32" width="300" height="300">
+        <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of
+                lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus
+                ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+            <p class="w3-large w3-text-pink">Do not hesitate to contact me!</p>
+
+        </form>
+        <br>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+</body>
+
+</html>

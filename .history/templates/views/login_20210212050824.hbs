@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>header}}
+    <title>Document</title>
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-sm col-md-4 mx-auto">
+                <h1 class="text-center login-title my-5">Employee Login Form</h1>
+                <div class="account-wall">
+                    <img class=""
+                        src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120"
+                        alt="">
+                    <form class="form-signin" action="/login" method="POST">
+                        <input type="text" class="form-control" placeholder="Email" required name="email">
+                        <input type="password" class="form-control" placeholder="Password" required name="password">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">
+                            Sign In
+                        </button>
+                        <label class="checkbox" value="remember-me">
+                            Remember Me
+                        </label>
+                        <a href="#" class="pull-rignt need-help">need help></a><span class="clearfix"></span>
+                    </form>
+                </div>
+                <a href="/registration" class="text-center new-account">Create an Account</a> 
+            </div>
+        </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
